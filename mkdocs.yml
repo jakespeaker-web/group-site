@@ -1,0 +1,13 @@
+site_name: 实验室组会与课题进度系统
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - search.highlight
+
+plugins:
+  - search
+
+nav:
+  - 首页: index.md

@@ -2,34 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://jakespeaker-web.github.io/group-site/</loc>
-         <lastmod>2026-03-07</lastmod>
+         <lastmod>2026-03-13</lastmod>
     </url>
     <url>
          <loc>https://jakespeaker-web.github.io/group-site/library/</loc>
-         <lastmod>2026-03-07</lastmod>
+         <lastmod>2026-03-13</lastmod>
     </url>
     <url>
          <loc>https://jakespeaker-web.github.io/group-site/library/Dissertations/</loc>
-         <lastmod>2026-03-07</lastmod>
+         <lastmod>2026-03-13</lastmod>
     </url>
     <url>
          <loc>https://jakespeaker-web.github.io/group-site/library/daily/</loc>
-         <lastmod>2026-03-07</lastmod>
+         <lastmod>2026-03-13</lastmod>
     </url>
     <url>
          <loc>https://jakespeaker-web.github.io/group-site/library/proposals/</loc>
-         <lastmod>2026-03-07</lastmod>
+         <lastmod>2026-03-13</lastmod>
     </url>
     <url>
          <loc>https://jakespeaker-web.github.io/group-site/meetings/2026-01-16/</loc>
-         <lastmod>2026-03-07</lastmod>
+         <lastmod>2026-03-13</lastmod>
     </url>
     <url>
          <loc>https://jakespeaker-web.github.io/group-site/meetings/2026-01-30/</loc>
-         <lastmod>2026-03-07</lastmod>
+         <lastmod>2026-03-13</lastmod>
+    </url>
+    <url>
+         <loc>https://jakespeaker-web.github.io/group-site/meetings/2026-03-06/</loc>
+         <lastmod>2026-03-13</lastmod>
+    </url>
+    <url>
+         <loc>https://jakespeaker-web.github.io/group-site/meetings/2026-03-13/</loc>
+         <lastmod>2026-03-13</lastmod>
     </url>
     <url>
          <loc>https://jakespeaker-web.github.io/group-site/projects/</loc>
-         <lastmod>2026-03-07</lastmod>
+         <lastmod>2026-03-13</lastmod>
     </url>
 </urlset>

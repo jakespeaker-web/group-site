@@ -5,12 +5,13 @@ theme:
   name: material
   language: zh
   features:
+    # - navigation.instant
     - navigation.tracking
     - navigation.expand
-    - navigation.top
+    - navigation.top          # 新增：返回顶部按钮
     - search.suggest
     - search.highlight
-    - content.code.copy
+    - content.code.copy       # 新增：代码块复制按钮
   palette:
     - scheme: default
       primary: indigo
@@ -24,29 +25,25 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 切换至浅色模式
-
 extra:
   generator: false
-
 markdown_extensions:
   - admonition
-  - attr_list
+  - attr_list                 # 必选：用于处理 {.确定} 这种自定义样式
   - md_in_html
   - tables
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
-  - pymdownx.emoji:
+  # --- 以下为新增/修复图标与任务列表的关键插件 ---
+  - pymdownx.emoji:           # 必选：处理 :material-xxx: 图标
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.tasklist:
+  - pymdownx.tasklist:        # 必选：处理 [x] 复选框
       custom_checkbox: true
-  - pymdownx.tilde
-  - pymdownx.caret
-
-extra_javascript:
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - pymdownx.tilde            # 可选：处理删除线
+  - pymdownx.caret            # 可选：处理插入线/上标
 
 nav:
   - 首页: index.md
@@ -59,3 +56,4 @@ nav:
   - 课题项目:
       - 项目总览: projects/index.md
   - 资料库: library/index.md
+

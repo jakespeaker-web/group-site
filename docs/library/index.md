@@ -87,7 +87,21 @@
 </div>
 
 
+  <!-- 已毕业学生发表论文 -->
+  <div class="card p-6 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow relative">
+    <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+      📄 组内论文发表汇总
+    </h3>
 
+    <p class="text-sm text-gray-600 leading-6">
+      汇总组内论文发表情况，按年份倒序整理
+      (仅包含第一作者和通讯作者均为课题组成员的文章)
+    </p>
+
+    <div class="mt-4 flex justify-end">
+      <a href="./graduates-papers/" class="text-sm text-blue-600 hover:underline">更多 →</a>
+    </div>
+  </div>
 
 
 
